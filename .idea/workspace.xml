@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5426ff17-84cf-4436-8068-d40a613e53b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/quatcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/controllers/ballController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/controllers/basketController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/Ball.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/Basket.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/models/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/items.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/screens/AddBallScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/screens/AddBasketScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/screens/BallTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/screens/BasketTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/screens/EditBallScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/screens/EditBasketScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/BallService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/BasketService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/apiService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stores/BallStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/stores/BasketsStore.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/backup/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/backup/backup_mongo.Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/backup/backup_mongo.cronjob.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/backup/backup_mongo.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/backup/backup_postgres.Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/backup/backup_postgres.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/kubernetes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/misc_scripts/backup_mongo_cmd.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/misc_scripts/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/misc_scripts/restore_mongo_cmd.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/.env.template" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/.eslintrc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.eslintrc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/.prettierrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.prettierrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/backend/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/nodemon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/src/controllers/itemController.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/src/models/Item.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/src/routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/src/server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/src/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/tests/items.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/tsconfig.base.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tsconfig.base.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/tsconfig.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tsconfig.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs-api-mongo/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/.env" beforeDir="false" afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/.prettierrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.prettierrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/client/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/config/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/config/getHttpsConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/getHttpsConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/config/jest/cssTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/jest/cssTransform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/config/jest/fileTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/jest/fileTransform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/config/modules.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/modules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/config/paths.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/paths.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/config/pnpTs.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/pnpTs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/config/webpackDevServer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/webpackDevServer.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/deployment/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/client/deployment/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/env-to-config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/client/env-to-config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/client/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/scripts/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/scripts/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/scripts/build_container.sh" beforeDir="false" afterPath="$PROJECT_DIR$/client/scripts/build_container.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/scripts/dev_deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/client/scripts/dev_deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/scripts/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/scripts/start.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/scripts/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/scripts/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/assets/bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/bg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/components/AppHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AppHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/components/Example.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Example.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/components/flex.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/flex.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/components/icons/CheckMark.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/icons/CheckMark.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/screens/ExampleScreen/ExampleScreen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/screens/ExampleScreen/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/serviceWorker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/serviceWorker.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/stores/RootStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/stores/RootStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/stores/RouterStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/stores/RouterStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/stores/SettingsStore.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/stores/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/stores/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/src/stores/useStores.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/stores/useStores.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-spa-mobx/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1qf6IGRudvspwdxztBR95M5FNF6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/screens" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/backend/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/backend/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/../Quadcode/backend/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/screens" />
+      <recent name="$PROJECT_DIR$/client/src/services" />
+      <recent name="$PROJECT_DIR$/backend/src/models" />
+      <recent name="$PROJECT_DIR$/backend/src/controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.items.create balls">
+    <configuration name="items.create ball" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/backend/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/backend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/backend/tests/items.test.ts" />
+      <test-names>
+        <test-name value="items" />
+        <test-name value="create ball" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="items.create balls" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/backend/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/backend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/backend/tests/items.test.ts" />
+      <test-names>
+        <test-name value="items" />
+        <test-name value="create balls" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="items.create baskets" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/backend/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/backend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/backend/tests/items.test.ts" />
+      <test-names>
+        <test-name value="items" />
+        <test-name value="create baskets" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="items.foo" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/backend/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/backend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/backend/tests/items.test.ts" />
+      <test-names>
+        <test-name value="items" />
+        <test-name value="foo" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.items.create balls" />
+        <item itemvalue="Jest.items.create baskets" />
+        <item itemvalue="Jest.items.create ball" />
+        <item itemvalue="Jest.items.foo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5426ff17-84cf-4436-8068-d40a613e53b6" name="Default Changelist" comment="" />
+      <created>1617458219889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617458219889</updated>
+      <workItem from="1617458222548" duration="11632000" />
+      <workItem from="1617539763840" duration="19000" />
+      <workItem from="1617539810749" duration="23385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617550066674">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="451" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1617550066674" />
+    <state x="188" y="452" width="1240" height="700" key="DiffContextDialog" timestamp="1617540482550">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="188" y="452" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1617540482550" />
+    <state width="1419" height="253" key="GridCell.Tab.0.bottom" timestamp="1617552690634">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="253" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1617552690634" />
+    <state width="1419" height="253" key="GridCell.Tab.0.center" timestamp="1617552690632">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="253" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1617552690632" />
+    <state width="1419" height="253" key="GridCell.Tab.0.left" timestamp="1617552690631">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="253" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1617552690631" />
+    <state width="1419" height="253" key="GridCell.Tab.0.right" timestamp="1617552690633">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="253" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1617552690633" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1617470350772">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1617470350772" />
+    <state x="117" y="79" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1617540035443">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="117" y="79" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1617540035443" />
+    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1617566480594">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1617566480594" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1617474060900">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1617474060900" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1617561495525">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1617561495525" />
+  </component>
+</project>
