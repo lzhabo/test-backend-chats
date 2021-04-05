@@ -26,9 +26,17 @@ const BasketTable: React.FunctionComponent<IProps> = () => {
           <Table
             dataSource={basketStore.baskets.map((b) => ({ ...b, key: b.id }))}
           >
+            <Column title="Id" dataIndex="id" />
             <Column title="Размер" dataIndex="size" />
             <Column title="Цвет" dataIndex="color" />
             <Column title="Материал" dataIndex="material" />
+            <Column
+              title="Кол-во шаров"
+              dataIndex="count"
+              render={(_, record: IBasket) =>
+                basketStore.ballsCount(record.id).toString()
+              }
+            />
             <Column
               title="Действия"
               key="action"

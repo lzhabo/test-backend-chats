@@ -18,8 +18,6 @@ router.get("/baskets/", basketController.getAllBaskets);
 router.get("/baskets/:id", basketController.getBasketById);
 router.post("/baskets/", basketController.createBasket);
 router.put("/baskets/:id", basketController.updateBasket);
-// router.put("/baskets/:id", basketController.removeBallFromBasket);
-// router.put("/baskets/:cardid/", basketController.updateBasket);
 router.delete("/baskets/:id", basketController.deleteBasket);
 
 export { router };

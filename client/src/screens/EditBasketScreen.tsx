@@ -21,7 +21,7 @@ const Root = styled.div`
   flex-direction: column;
 `;
 
-const EditBallScreen: React.FC<IProps> = () => {
+const EditBasketScreen: React.FC<IProps> = () => {
   const { id } = useParams<{ id: string }>();
   const history = useHistory();
   const { basketStore } = useStores();
@@ -35,7 +35,7 @@ const EditBallScreen: React.FC<IProps> = () => {
   return (
     <Observer>
       {() => {
-        const ball = basketStore.getBasketById(+id);
+        const basket = basketStore.getBasketById(+id);
         return (
           <Root>
             <Drawer
@@ -49,7 +49,7 @@ const EditBallScreen: React.FC<IProps> = () => {
                 <Form
                   form={form}
                   layout="vertical"
-                  initialValues={ball}
+                  initialValues={basket}
                   onFinish={handleFinish}
                 >
                   <Form.Item
@@ -57,7 +57,7 @@ const EditBallScreen: React.FC<IProps> = () => {
                     label="Цвет"
                     rules={[{ required: true }]}
                   >
-                    <Select value={ball && ball.color}>
+                    <Select value={basket && basket.color}>
                       {COLORS.map((v) => (
                         <Select.Option key={v} value={v}>
                           {v}
@@ -70,7 +70,7 @@ const EditBallScreen: React.FC<IProps> = () => {
                     label="Размер"
                     rules={[{ required: true }]}
                   >
-                    <Select value={ball && ball.size}>
+                    <Select value={basket && basket.size}>
                       {SIZES.map((v) => (
                         <Select.Option key={v} value={v}>
                           {v}
@@ -83,7 +83,7 @@ const EditBallScreen: React.FC<IProps> = () => {
                     label="Материал"
                     rules={[{ required: true }]}
                   >
-                    <Select value={ball && ball.size}>
+                    <Select value={basket && basket.size}>
                       {MATERIALS.map((v) => (
                         <Select.Option key={v} value={v}>
                           {v}
@@ -112,4 +112,4 @@ const EditBallScreen: React.FC<IProps> = () => {
     </Observer>
   );
 };
-export default EditBallScreen;
+export default EditBasketScreen;

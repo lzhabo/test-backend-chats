@@ -10,6 +10,7 @@ import EditBallScreen from "@src/screens/EditBallScreen";
 import { SettingOutlined } from "@ant-design/icons";
 import AddBallScreen from "@src/screens/AddBallScreen";
 import AddBasketScreen from "@src/screens/AddBasketScreen";
+import EditBasketScreen from "@src/screens/EditBasketScreen";
 
 const { Header, Content } = Layout;
 
@@ -74,7 +75,7 @@ const App: React.FunctionComponent<IProps> = () => {
             <EditBallScreen />
           </Route>
           <Route path={ROUTES.EDIT_BASKET} exact>
-            <EditBallScreen />
+            <EditBasketScreen />
           </Route>
           <Route path={ROUTES.ADD_BALL} exact>
             <AddBallScreen />

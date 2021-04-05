@@ -24,9 +24,19 @@ export default class BasketsStore {
   };
 
   @action updateBasket = async (id: string, data: any) => {
-    await basketService.updateBasket(id, data);
-    await this.sync();
+    try {
+      await basketService.updateBasket(id, data);
+      await this.sync();
+    } catch (e) {
+      notification.error({ message: e.message ?? "Что-то пошло не так" });
+    }
   };
+
+  ballsCount = (id: number) =>
+    this.rootStore.ballStore.balls.filter(
+      (b) => String(b.basketId) === String(id)
+    ).length;
+
   @action createBasket = async (data: {
     color: string;
     material: string;
@@ -37,7 +47,7 @@ export default class BasketsStore {
       await this.sync();
       notification.success({ message: "Корзина добавлена" });
     } catch (e) {
-      notification.error({ message: "Что-то пошло не так" });
+      notification.error({ message: e.message ?? "Что-то пошло не так" });
     }
   };
 

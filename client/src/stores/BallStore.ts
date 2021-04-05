@@ -62,4 +62,14 @@ export default class BallStore {
       notification.success({ message: "Шар был добавлен" });
     } catch (e) {}
   };
+
+  @action deleteBall = async (id: string) => {
+    try {
+      await ballService.deleteBall(id);
+      await this.sync();
+      notification.success({ message: "Шар был удален" });
+    } catch (e) {
+      notification.error({ message: "Что-то пошло не так" });
+    }
+  };
 }

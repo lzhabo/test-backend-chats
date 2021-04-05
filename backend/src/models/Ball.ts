@@ -5,6 +5,7 @@ export interface IBall {
   size: string;
   color: string;
   material: string;
+  basketId?: string | null;
 }
 
 const ballModel = {

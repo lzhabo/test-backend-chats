@@ -3,6 +3,7 @@ export interface IBall {
   size: string;
   color: string;
   material: string;
+  basketId?: string;
 }
 
 export interface IBasket {
