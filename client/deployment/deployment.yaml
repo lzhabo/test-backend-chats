@@ -5,29 +5,29 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    project: react-spa-project
+    project: project
     env: dev
-  name: react-spa-project-dev
+  name: project-dev
 spec:
   replicas: 1
   selector:
     matchLabels:
-      project: react-spa-project
+      project: project
       env: dev
   strategy: {}
   template:
     metadata:
       labels:
-        project: react-spa-project
+        project: project
         env: dev
     spec:
       containers: # Container configuration. Here we have only 1 image, but it can have more than one
-      - image: registry.abetalife.com/react-spa-project:dev
+      - image: registry.abetalife.com/project:dev
         env:
         - name: EXAMPLE_VARIABLE
           value: "EXAMPLE_VALUE"
         imagePullPolicy: Always
-        name: react-spa-project-dev
+        name: project-dev
         ports:
         - containerPort: 3000
         resources: {}
@@ -39,15 +39,15 @@ status: {}
 ---
 # Service
 # This part describes how do we expose deployed containers. This particular configuration says:
-# Map some cluster-ip address 80 port to react-spa-project deployment 3000 port. With this service deployment container is
-# available as react-spa-project-dev:80/
+# Map some cluster-ip address 80 port to project deployment 3000 port. With this service deployment container is
+# available as project-dev:80/
 apiVersion: v1
 kind: Service
 metadata:
   labels:
-    project: react-spa-project
+    project: project
     env: dev
-  name: react-spa-project-dev
+  name: project-dev
 spec:
   type: ClusterIP
   ports:
@@ -55,7 +55,7 @@ spec:
     port: 80
     targetPort: 3000
   selector:
-    project: react-spa-project
+    project: project
     env: dev
 status:
   loadBalancer: {}
@@ -74,13 +74,13 @@ metadata:
 spec:
   tls:
   - hosts: # cluster will manage certificate for these domains via cert manager. DNS should resolve these domains to ingress load balancer ip
-    - react-spa-project.com
-    secretName: react-spa-project-develop
+    - project.com
+    secretName: project-develop
   rules: # Maps hostname and path to internal service
-  - host: react-spa-project.com
+  - host: project.com
     http:
       paths:
       - path: /
         backend:
-          serviceName: react-spa-project-dev
+          serviceName: project-dev
           servicePort: 80

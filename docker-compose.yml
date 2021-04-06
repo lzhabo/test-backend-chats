@@ -1,0 +1,61 @@
+version: "3"
+
+services:
+  traefik:
+    image: "traefik:v2.4"
+    restart: always
+    container_name: "traefik"
+    command:
+      - "--log.level=INFO"
+      - "--api=true"
+      - "--api.dashboard=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--entrypoints.web.http.redirections.entryPoint.to=websecure"
+      - "--entrypoints.web.http.redirections.entryPoint.scheme=https"
+      - "--entrypoints.web.http.redirections.entrypoint.permanent=true"
+      - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
+      - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
+      #- "--certificatesresolvers.myresolver.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory"
+      - "--certificatesresolvers.myresolver.acme.email=${LETS_EMAIL}"
+      - "--certificatesresolvers.myresolver.acme.storage=/data/acme.json"
+    ports:
+      - 443:443
+      - 80:80
+    networks:
+      - web
+    volumes:
+      - "./traefik:/data"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+
+    labels:
+        - "traefik.enable=false"
+
+  api:
+    build: ./backend
+    networks:
+      - internal
+    container_name: test-backend
+#    network_mode: 'host'
+
+  client:
+    build: ./client
+    networks:
+      - web
+      - internal
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.nginx.rule=Host(`${SITE_NAME}`)"
+      - "traefik.http.routers.nginx.entrypoints=websecure"
+      - "traefik.http.routers.nginx.tls.certresolver=myresolver"
+      - "traefik.docker.network=web"
+    container_name: test-client
+
+
+networks:
+  web:
+    external: true
+  internal:
+    external: false

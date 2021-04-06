@@ -12,7 +12,8 @@
 cd client && npm i && npm start
 ```
 
-Бэк будет доступен на [backend](http://localhost:5000). Для запуска нужно создать бд с названием postgres  на порту 5433 
+Бэк будет доступен на [backend](http://localhost:5000). 
+Переименуйте файт .env.template и в переменную окружения POSTGRE_URL вставьте ссылку на вашу бд
 
 ```sh
 cd backend && npm i && npm start
